@@ -1,4 +1,5 @@
 version: 0.2
+
 phases:
   install:
     commands:
@@ -8,6 +9,7 @@ phases:
     commands:
       - echo "Ejecutando pruebas..."
       - pytest tests/
+
 artifacts:
   files:
     - '**/*'
